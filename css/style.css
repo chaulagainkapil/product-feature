@@ -114,6 +114,7 @@ body {
   .product__card--text {
     padding: 25px;
     border-radius: 0px 0px 20px 20px;
+    height: auto;
   }
 }
 .attribution {
