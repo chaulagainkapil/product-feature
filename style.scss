@@ -69,7 +69,8 @@ body{
                 text-align: center;
                 &--new{
                     color: $color3;
-                    font-size: 34px;
+                    font-size: 35px;
+                    font-family: $font-name2;
                 }
                 &--old{
                     text-decoration-line: line-through;
