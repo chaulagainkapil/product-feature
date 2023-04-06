@@ -12,11 +12,11 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->  
 </head>
 <body>
-  <div class="product">
+  <main class="product" role="main">
     <div class="product__card">
       <div class="product__card--image">
-        <a href="./images/image-product-desktop.jpg" class="product__card--image--1"><img src="./images/image-product-desktop.jpg"></a>
-        <a href="./images/image-product-mobile.jpg" class="product__card--image--2"><img src="./images/image-product-mobile.jpg"></a>    
+        <a href="./images/image-product-desktop.jpg" class="product__card--image--1" aria-label="Perfume bottle image big"><img src="./images/image-product-desktop.jpg" alt="Perfume bottle"></a>
+        <a href="./images/image-product-mobile.jpg" class="product__card--image--2" aria-label="Perfume bottle image small"><img src="./images/image-product-mobile.jpg" alt="Perfume bottle"></a>    
       </div>
       <div class="product__card--text">
         <p class="product__card--text--header">Perfume</p>
@@ -29,10 +29,10 @@
           <p class="product__card--text--price"><span class="product__card--text--price--new">$149.99</span>
             <span class="product__card--text--price--old">$169.99</span></p>
 
-            <button onclick="window.location.href = '#'" class="link-button"><span class="button-text"><img src="./images/icon-cart.svg"> Add to Cart</span></button>
+            <button onclick="window.location.href = '#'" class="link-button"><span class="button-text"><img src="./images/icon-cart.svg" alt="cart icon"> Add to Cart</span></button>
       </div>
     </div>
-  </div>  
+  </main>  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/chaulagainkapil/">Kapil</a>.
