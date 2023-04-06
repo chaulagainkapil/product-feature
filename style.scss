@@ -1,5 +1,8 @@
 $font-name1: 'Montserrat', sans-serif;
 $font-name2: 'Fraunces', serif;
+$color1: hsl(30, 38%, 92%);
+$color2: hsl(0, 0%, 100%);
+$color3: hsl(158, 36%, 37%);
 
 *{
     margin: 0;
@@ -8,7 +11,7 @@ $font-name2: 'Fraunces', serif;
 }
 
 body{
-    background-color: hsl(30, 38%, 92%);
+    background-color: $color1;
     font-family: $font-name1;
 }
 
@@ -35,7 +38,7 @@ body{
             }
         }
         &--text{
-            background-color: hsl(0, 0%, 100%);
+            background-color: $color2;
             padding: 35px;
             border-radius: 0px 20px 20px 0px;
             height: 480px;
@@ -65,7 +68,7 @@ body{
                 padding-bottom: 20px;
                 text-align: center;
                 &--new{
-                    color: hsl(158, 36%, 37%);
+                    color: $color3;
                     font-size: 34px;
                 }
                 &--old{
@@ -76,8 +79,8 @@ body{
                 }
             }
             button{
-                background-color: hsl(158, 36%, 37%);
-                color: hsl(0, 0%, 100%);
+                background-color: $color3;
+                color: $color2;
                 border: none;
                 border-radius: 10px;
                 width: 100%;
@@ -85,7 +88,6 @@ body{
                 padding: 15px 32px;
                 cursor: pointer;
                 text-decoration: none;
-                color: hsl(0, 0%, 100%);
                 span{
                     font-weight: 500;
                     font-size: medium;
