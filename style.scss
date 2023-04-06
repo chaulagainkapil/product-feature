@@ -1,3 +1,6 @@
+$font-name1: 'Montserrat', sans-serif;
+$font-name2: 'Fraunces', serif;
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-name1;
 }
 
 .product{
@@ -37,7 +40,7 @@ body{
             border-radius: 0px 20px 20px 0px;
             height: 480px;
             h1{
-                font-family: 'Fraunces', serif;
+                font-family: $font-name2;
                 padding-top: 20px;
                 padding-bottom: 20px;
                 font-weight: 700;
